@@ -1,0 +1,64 @@
+body{
+    background-image: url('images/number.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color:rgb(248, 247, 252);
+    font-size: 08vh;
+    text-align: center;
+    margin: auto;
+}
+.sectionGroup{
+    text-align: center;
+}
+.container{
+    background-color: rgb(255, 255, 255);
+    border-radius: 08px;
+    width: 500px;
+    margin:auto;
+}
+#paragraphOne{
+    color: rgb(23, 23, 24);
+    padding-top:20px;
+    font-size: 22px;
+}
+.borderInput{
+    border: 0.5px solid black;
+    border-radius: 08px;
+    width: 150px;
+    height: 30px;
+}
+.btn{
+    width: 60px;
+    height: 30px;  
+    margin: 10px; 
+    background-color: rgb(199, 199, 199);
+    color: rgb(23, 23, 24);
+    border: 0.5px solid rgb(23, 23, 24);
+    border-radius: 08px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color:rgb(40, 40, 43) ;
+    color: white;
+    transition: 0.3s;
+}
+.sizeList{
+    text-align: center;
+    width: 235px;
+    border-color: black;
+    border-radius: 08px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+#answer{
+    background-color: rgb(255, 255, 255);
+    border-radius: 08px;
+    width: 500px;
+    text-align: center;
+    margin:auto;
+}

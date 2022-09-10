@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Number Analyzer</title>
+</head>
+<body>
+    <header>
+        <h1>Number Analyzer</h1>
+    </header>
+    <section class="sectionGroup">
+        <div class="container">
+            <p id="paragraphOne">Choose a number between 1 and 100:</p>
+            <input class="borderInput" type="number" name="getNumber" id="getNumber">
+            <input class="btn" type="button" value="Add" onclick="add()"> <br><br>
+            <select class="sizeList" name="numberList" id="numberList" size="6"></select><br>
+            <input class="btn" type="button" value="Finish" onclick="finish()">
+        </div>
+    </section>
+    <section class="sectionGroup" >
+        <div id="answer">
+
+        </div>
+    </section>
+    <footer>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
