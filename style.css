@@ -62,3 +62,42 @@ h1{
     text-align: center;
     margin:auto;
 }
+
+@media(max-width: 525px){
+    .container{
+        width:450px;
+    }
+    #answer{
+        width:450px;
+    }
+}
+
+@media(max-width: 470px){
+    h1{
+        font-size: 07vh; 
+    }
+    #paragraphOne{
+        font-size: 18px;
+    }
+    .container{
+        width:350px;
+    }
+    #answer{
+        width:350px;
+    }
+}
+
+@media(max-width: 370px){
+    h1{
+        font-size: 05vh; 
+    }
+    #paragraphOne{
+        font-size: 16px;
+    }
+    .container{
+        width:270px;
+    }
+    #answer{
+        width:270px;
+    }
+}
